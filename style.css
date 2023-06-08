@@ -1,0 +1,67 @@
+/*font-family: 'Roboto', sans-serif;*/
+
+
+*{box-sizing: border-box;}
+
+html,body{
+    min-height: 100vh;}
+
+body{font-family: 'Roboto', sans-serif;}
+
+.header {background-color: cornflowerblue;
+        color:white;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        font-size: 150%;}
+
+#grid-container {display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap:50px;
+                grid-row-gap:30px;
+                padding-left: 20px;
+                padding-right: 20px;}
+
+ #g01{grid-column: 1/2;
+        grid-row: 1/2;
+        margin-top: 3%;}
+
+ #from {font-size: 90%;
+        width: 100%;
+        padding: 10px;
+        margin-top:1%;}
+
+#g02{grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 3%;}
+
+#to {font-size: 90%;
+        width: 100%;
+        padding: 10px;
+        margin-top: 1%;}
+
+#g03{grid-column: 1/2;
+        grid-row: 2/3;}
+
+#text01 {height: 20vw; 
+        width: 100%;}
+
+#g04{grid-column: 1/3;
+       }
+
+#buttom {width: 100%;
+        padding: 10px;
+        background-color: rgba(141, 176, 240, 0.618);
+        color: white;
+        border: 1px solid rgba(218, 217, 217, 0.527);}
+
+#buttom:hover{background-color: rgba(128, 128, 128, 0.601);}
+
+#g05{grid-column: 2/3;
+        grid-row: 2/3;}
+
+#translation {height: 20vw;
+            width: 100%;
+            border: 1px solid rgba(128, 128, 128, 0.533);
+                }
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API Maria Eugenia</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+
+      <header>
+        <div class="header">
+          <h1> Google Translate </h1>
+        </div>
+      </header>
+
+      <main id="grid-container">
+
+        <div id="g01">
+            <form id="form-google">
+            <label for="languages">From:</label>
+            <select name="cars" id="from">
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="pt">Poruguese</option>
+            </select>
+        </div>
+
+        <div id="g02">
+            <label for="translationLg">To:</label>
+            <select name="cars" id="to">
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="pt">Poruguese</option>
+            </select>
+        </div> 
+
+        <div id="g03">
+            <input type="text" name="" id="text01">
+        </div>
+
+        <div id="g04">
+            <input type="submit" value="Submit" id="buttom">
+        </div>
+
+        </form>
+
+
+        <div id="g05">
+        <div id="translation"></div>
+        </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
